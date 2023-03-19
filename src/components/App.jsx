@@ -1,6 +1,4 @@
-import checkeredBoard from 'helpers/checkeredBoard';
 import { useState } from 'react';
-import { useEffect } from 'react';
 import { Form } from './Input/Form';
 import { Board } from './Board/Board';
 import { Container } from './Layout.styled';
