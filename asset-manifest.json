@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/aplikacja_DarkpoolOne/static/css/main.c3d5249d.css",
-    "main.js": "/aplikacja_DarkpoolOne/static/js/main.f927f24a.js",
+    "main.js": "/aplikacja_DarkpoolOne/static/js/main.dada1b19.js",
     "index.html": "/aplikacja_DarkpoolOne/index.html",
     "main.c3d5249d.css.map": "/aplikacja_DarkpoolOne/static/css/main.c3d5249d.css.map",
-    "main.f927f24a.js.map": "/aplikacja_DarkpoolOne/static/js/main.f927f24a.js.map"
+    "main.dada1b19.js.map": "/aplikacja_DarkpoolOne/static/js/main.dada1b19.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d5249d.css",
-    "static/js/main.f927f24a.js"
+    "static/js/main.dada1b19.js"
   ]
 }
