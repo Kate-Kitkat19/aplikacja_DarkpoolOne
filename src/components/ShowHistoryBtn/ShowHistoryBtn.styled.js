@@ -11,7 +11,9 @@ export const Button = styled.button`
   font-size: 16px;
   cursor: pointer;
   border-radius: 3px;
+  transition: box-shadow 300ms ease-in-out, background-color 300ms ease-in-out;
   &:hover {
-    background-color: #9f9fed;
+    background-color: #5850e2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 `;
