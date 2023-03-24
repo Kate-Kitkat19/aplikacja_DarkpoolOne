@@ -70,6 +70,9 @@ export const App = () => {
   function handleSubmit(evt) {
     evt.preventDefault();
     const res = evt.target.elements.dimensions.value;
+    if (res === '') {
+      return;
+    }
     setHistory([]);
     setDimensions(res);
   }

@@ -12,8 +12,10 @@ export const Button = styled.button`
   cursor: pointer;
   margin-left: 10px;
   border-radius: 3px;
+  transition: box-shadow 300ms ease-in-out, background-color 300ms ease-in-out;
   &:hover {
-    background-color: #9f9fed;
+    background-color: #5850e2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 `;
 
@@ -23,6 +25,7 @@ export const Input = styled.input`
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 3px;
+  margin-left: 15px;
   &:focus {
     outline: none;
     border-color: #9f9fed;
@@ -31,7 +34,6 @@ export const Input = styled.input`
 
 export const Label = styled.label`
   display: inline-block;
-  font-size: 18px;
-  margin-right: 10px;
-  vertical-align: middle;
+  font-size: 20px;
+  vertical-align: center;
 `;
